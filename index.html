@@ -33,6 +33,18 @@
           border: 2px solid black;
         }
 
+
+        .gallery {
+          display: flex;
+          overflow-x: scroll;
+          gap: 10px;
+        }
+
+
+        .gallery img {
+          height: 500px;
+        }
+
       </style>
     </head>
     <body>
@@ -55,7 +67,7 @@
         </section>
         <section>
           <h2>Fun Pictures</h2>
-          <div>
+          <div class="gallery">
             <img src="http://placekitten.com/800/600" alt="A kitten" />
             <img src="https://picsum.photos/600/800" alt="A random photo" />
             <img src="https://images.unsplash.com/photo-1683972797738-df244c40b32a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTZ8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="Fancy picture" />
